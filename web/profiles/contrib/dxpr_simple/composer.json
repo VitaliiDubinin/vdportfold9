@@ -1,0 +1,27 @@
+{
+  "name": "dxpr/dxpr_simple",
+  "type": "drupal-profile",
+  "description": "Simple demo site with DXPR Builder no-code page builder.",
+  "homepage": "https://www.drupal.org/project/dxpr_simple",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "alpha",
+  "prefer-stable": true,
+  "repositories": [
+      {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
+      }
+  ],
+  "require": {
+    "drupal/default_content": "^2.0.0-alpha2",
+    "drupal/dxpr_builder": "^2.0",
+    "drupal/entity_browser": "^2.8",
+    "drupal/inline_entity_form": "^1.0@RC",
+    "drupal/core": "^9"
+  },
+  "require-dev": {
+      "drupal/core-dev": "^9",
+      "drupal/devel": "^5.0.0",
+      "drush/drush": "^11"
+  }
+}

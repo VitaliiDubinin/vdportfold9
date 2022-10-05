@@ -1,0 +1,33 @@
+{#
+/**
+ * @file
+ * DXPR License info block.
+ *
+ * Variables:
+ * - users_count: Number of users with access to DXPR builder.
+ * - seats_count: Number of seats in use.
+ * - seats_limit: Number of seats in license.
+ */
+#}
+<div class="user-licenses">
+  <div class="user-licenses__title">
+    {{- 'DXPR User Licensing'|t -}}
+    <a class="user-licenses__title--more-link" href="/admin/dxpr_studio/dxpr_builder/user_licenses">({{- 'more info'|t -}})</a>
+  </div>
+  <div class="user-licenses__stats">
+    <div class="user-licenses__stats--users">
+      <span class="user-licenses__stats--users-number">{{ users_count }}</span>
+      <span class="user-licenses__stats--users-label">
+          {{- 'DXPR Builder users'|t -}}
+        </span>
+    </div>
+    <div class="user-licenses__stats--seats">
+      <span class="user-licenses__stats--seats-number">
+        {{ seats_count }}/{{ seats_limit }}
+      </span>
+      <span class="user-licenses__stats--seats-label">
+          {{- 'allocated seats'|t -}}
+        </span>
+    </div>
+  </div>
+</div>

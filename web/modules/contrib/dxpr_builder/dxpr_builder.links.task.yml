@@ -1,0 +1,24 @@
+dxpr_builder.settings:
+  route_name: dxpr_builder.settings
+  title: 'General Settings'
+  base_route: dxpr_builder.settings
+
+dxpr_builder.profile:
+  route_name: entity.dxpr_builder_profile.collection
+  title: 'User Profiles'
+  base_route: dxpr_builder.settings
+
+dxpr_builder.user_templates:
+  route_name: entity.dxpr_builder_user_template.collection
+  title: 'User Templates'
+  base_route: dxpr_builder.settings
+
+dxpr_builder.page_template:
+  route_name: entity.dxpr_builder_page_template.collection
+  title: 'Page Templates'
+  base_route: dxpr_builder.settings
+
+dxpr_builder.user_licenses:
+  route_name: dxpr_builder.user_licenses
+  title: 'User Licenses'
+  base_route: dxpr_builder.settings

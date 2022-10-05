@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c2ee0918-8245-43af-96d8-1e6b8846b601
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dxpr-builder-2.0.0-icon-demo_1.gif
+  uri:
+    -
+      value: 'public://2022-09/dxpr-builder-2.0.0-icon-demo_1.gif'
+  filemime:
+    -
+      value: image/gif
+  filesize:
+    -
+      value: 1040840
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1663940528

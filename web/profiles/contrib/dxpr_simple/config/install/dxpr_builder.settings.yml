@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: JTUGEk8Pgjp8dMTqp3Pk_vaP71Hmek9L2vyh1qoY7P0
+offset_selector: '.dxpr-theme-header--sticky, .dxpr-theme-header--fixed'
+bootstrap: '1'
+cke_fonts: ''
+cke_stylesset: ''
+editor_assets_source: '0'
+format_filters: 0
+media_browser: dxpr_builder_media_modal
+record_analytics: true
+notifications: true
+json_web_token: ''

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * The module file for dxpr_builder_media.
+ */
+
+/**
+ * Implements hook_preprocess_views_view().
+ */
+function dxpr_builder_media_preprocess_views_view(&$variables) {
+  if ($variables['view']->id() === 'dxpr_builder_media') {
+    $variables['view_array']['#attached']['library'][] = 'dxpr_builder_media/view';
+  }
+}

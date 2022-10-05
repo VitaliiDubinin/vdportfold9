@@ -1,0 +1,15 @@
+name: DXPR Simple Demo Content
+type: module
+description: Demo Content for DXPR Simple installation profile.
+package: DXPR
+core_version_requirement: ^9 || ^10
+dependencies:
+  - dxpr_builder:dxpr_builder
+  - drupal:default_content
+default_content:
+  node:
+    - 84cd44c2-4de3-48bc-a4cb-7ba0b428daee
+  media:
+    - cb7978f7-d75c-420c-9047-6f0e5760e9ec
+  file:
+    - c2ee0918-8245-43af-96d8-1e6b8846b601
